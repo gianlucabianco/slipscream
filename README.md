@@ -4,3 +4,5 @@ First attempt to messing up with c#
 https://slipstre.am/
 
 http://www.extentofthejam.com/pseudo/
+
+https://docs.monogame.net/api/Microsoft.Xna.Framework.html
