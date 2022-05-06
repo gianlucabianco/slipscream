@@ -1,5 +1,5 @@
-# PROJECT CHECKLIST
+# PROJECT CHECKLIST (TODO:)
 
 - windows installation guide (if needed)
-- TODO: document this checklist here and in the README.md
-- TODO: better folder structure
+- document this checklist here and in the README.md
+- better folder structure
