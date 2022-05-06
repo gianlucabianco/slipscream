@@ -1,11 +1,12 @@
 # 🚗 💨 💨 SLIPSCREAM 🚗 💨 💨
 
-I recently fell in love with a retro game inspired racing car named [Slipstream](https://slipstre.am/).
+I recently fell in love with a retro-inspired racing car game named [Slipstream](https://slipstre.am/).
 
-Retrogaming is one of my passions, and I'm fascinated by how engineers could develop so great games with so low hardware resources.
+Retrogaming is one of my passions, and I'm fascinated by how engineers had develop so great games with so low hardware resources.
 
-So let's try to do something similar with a game that is not a game.
-This project is my first attempt to messing up with C# with the savy guidance of one of the best C# developers in the world: [@rodolfotedeschi](https://github.com/rodolfotedeschi).
+So let's try to do something similar with a simple game to better try to understand these challenges!
+
+This project is my first attempt at messing up with C# with the wise guidance of one of the best C# developers in the world: [@rodolfotedeschi](https://github.com/rodolfotedeschi).
 
 ---
 
@@ -18,52 +19,23 @@ This project is my first attempt to messing up with C# with the savy guidance of
 
 ---
 
-## 👩🏻‍💻👨🏻‍💻 Installation and Usage ( macOS x86_64 )
+## 👩🏻‍💻👨🏻‍💻 Installation and Usage
 
-Install [.NET SDK 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0).
+[.NET SDK 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) installation is required.
 
-The installation includes the following runtimes:
+`Windows` is the suggested platform for this project.
 
-- .NET Runtime 6.0.4
-- ASP.NET Core Runtime 6.0.4
-- .NET Desktop Runtime 6.0.4
-
-And the following Language support:
-
-- C# 10.0
-- F# 6.0
-- Visual Basic 16.9
-
-To install the project, run the following command:
-
-```bash
-
-    > git clone
-    > cd <project-folder>
-
-```
-
-Then, install mono:
-
-```bash
-
-    > brew install mono
-
-```
-
-### arm (M1)
-
-This version is not yet available.
+`macOs` not recommended: support is limited for `x86` architecture and not supported for `arm64` architecture yet.
 
 ---
 
 ## 💻 Recommended IDE Setup
 
-The recomennded IDE setup is [Visual Studio](https://visualstudio.microsoft.com/).
+The recommended IDE setup is [Visual Studio](https://visualstudio.microsoft.com/).
 
-Because my love for it, I will personally use [VSCode](https://code.visualstudio.com/). 💖 💖 💖
+A more lightweight editor could be [VSCode](https://code.visualstudio.com/).
 
-To improve the development experience with `VSCode`, I recommend the installation of the following extensions:
+To improve the development experience with `VSCode`, the installation of the following extensions is recommended:
 
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 
@@ -80,7 +52,7 @@ To improve the development experience with `VSCode`, I recommend the installatio
 
 # 🧮 SOME THEORY BEHIND PSEUDO 3D 🧮
 
-To achieve a pseudo 3D effect, there are some solutions, which Louis Gorenfeld brillantly presented in his [Pseudo 3d Page](http://www.extentofthejam.com/pseudo/).
+To achieve a pseudo-3D effect, there are some solutions, which Louis Gorenfeld brilliantly presented in his [Pseudo 3d Page](http://www.extentofthejam.com/pseudo/).
 
 ---
 
@@ -96,7 +68,7 @@ Wanna help?
 
 Feel free to open `issues`, make suggestions via `discussions`, or `Contribute`.
 
-Thanks to have watch and tried this repo 💘.
+Thanks to have watched and tried this repo 💘.
 
 ---
 
