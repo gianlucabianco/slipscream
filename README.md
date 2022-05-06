@@ -12,7 +12,7 @@ This project is my first attempt at messing up with C# with the wise guidance of
 
 ## 📖 Required knowledge
 
-- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/csharp)
+- [C#](https://docs.microsoft.com/en-us/dotnet/csharp/)
 - [MonoGame DOCS](https://docs.monogame.net/)
 - [MonoGame Xna API](https://docs.monogame.net/api/Microsoft.Xna.Framework.html)
 - [Git](https://git-scm.com/)
