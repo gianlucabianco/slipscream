@@ -10,8 +10,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<None Update="Car.png">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
+	  <None Update="Road.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 </Project>
