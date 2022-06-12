@@ -9,6 +9,8 @@ namespace Slipscream
 	{
 		private const double ViewingDistance = 0.5;
 
+		private Dot? dot;
+		private Font? font;
 		private double positionX;
 		private double positionZ;
 		private Texture2D? road;
@@ -72,6 +74,9 @@ namespace Slipscream
 				lastDrawY = drawY;
 			}
 
+			dot!.Draw(spriteBatch, 300, 200, 200, 200, new Color(Color.Yellow, 0.5f));
+			font!.Write(spriteBatch, 400, 300, "Hello, World!");
+
 			spriteBatch.End();
 			base.Draw(gameTime);
 		}
@@ -80,6 +85,8 @@ namespace Slipscream
 		{
 			spriteBatch = new SpriteBatch(GraphicsDevice);
 			road = Texture2D.FromFile(GraphicsDevice, "Road.png");
+			font = new Font(GraphicsDevice);
+			dot = new Dot(GraphicsDevice);
 		}
 
 		private double ProjectX(double x, double z) => Width / 2.0 + x * ViewingDistance / (ViewingDistance + z) * Width;
